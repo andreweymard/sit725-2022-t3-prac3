@@ -4,6 +4,7 @@ SIT725 Prac 2
 .gitignore file excludes the node_modules folder
 
 Get methods for add and deduct have been implemented
+
 Example post for add:
 http://localhost:3000/addTwoNumbers?number1=9&number2=7
 
