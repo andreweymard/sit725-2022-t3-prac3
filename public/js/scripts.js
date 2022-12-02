@@ -36,4 +36,5 @@ $(document).ready(function(){
     $('#clickMeButton').click(()=>{
         clickMe();
     })
+    addCards(cardList);
 });
