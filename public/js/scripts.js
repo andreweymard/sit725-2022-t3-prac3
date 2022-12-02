@@ -13,6 +13,14 @@ const cardList = [
     }
 ]
 
+const submitForm = () => {
+    let formData = {};
+    formData.first_name = $('#first_name').val();
+    formData.last_name = $('#last_name').val();
+    formData.password = $('#password').val();
+    formData.email = $('#email').val();
+}
+
 const clickMe = () => {
     alert("Thanks for clicking me. Hope you have a nice day!")
 }
@@ -37,4 +45,5 @@ $(document).ready(function(){
         clickMe();
     })
     addCards(cardList);
+    $('.modal').modal();
 });
